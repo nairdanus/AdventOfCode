@@ -5,7 +5,7 @@ with open("input.txt", "r", encoding="utf-8") as puzzle_input:
     input = [line.strip() for line in puzzle_input.readlines()]
 
 
-class FileStructure():
+class FileStructure:
     def __init__(self):
         self.cwd: str = "root"
         self.file_system = {"root": dict()}
